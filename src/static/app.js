@@ -1,4 +1,14 @@
-document.addEventListener("DOMContentLoaded", () => {
+<div class="activity-card">
+  <h4>Activity Name</h4>
+  <p>Description...</p>
+  <div class="participants">
+    <h5>Participants</h5>
+    <ul>
+      <li>Student 1</li>
+      <li>Student 2</li>
+    </ul>
+  </div>
+</div>document.addEventListener("DOMContentLoaded", () => {
   const activitiesList = document.getElementById("activities-list");
   const activitySelect = document.getElementById("activity");
   const signupForm = document.getElementById("signup-form");
